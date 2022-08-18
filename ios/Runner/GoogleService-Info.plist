@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>241105662111-95j35hdmf58jj5rsbqvjt5gvm9lemj6j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.241105662111-95j35hdmf58jj5rsbqvjt5gvm9lemj6j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDblUYbEGTP8wT6jd-raws9kLwNyWVNNI8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>241105662111</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flutterCompleteGuide</string>
+	<key>PROJECT_ID</key>
+	<string>school-safety-b7759</string>
+	<key>STORAGE_BUCKET</key>
+	<string>school-safety-b7759.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:241105662111:ios:9441f5a917830f27b6f2aa</string>
+</dict>
+</plist>

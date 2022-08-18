@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12244586209",
+    "project_id": "school-monitoring-f8602",
+    "storage_bucket": "school-monitoring-f8602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12244586209:android:b2edfa95305557ebba31a0",
+        "android_client_info": {
+          "package_name": "com.example.flutter_complete_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12244586209-u8danu5c7a82fe3oc6th6dt0d8gbefuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQu7V-DFuGLhVMysBbFdckluwVCDO9Zw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12244586209-u8danu5c7a82fe3oc6th6dt0d8gbefuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
