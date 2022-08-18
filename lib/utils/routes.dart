@@ -11,4 +11,5 @@ class Myroutes {
   static String parentsignup = "/parentsignup";
   static String teacherReg = "/teacherreg";
   static String changePassword = "/changepwd";
+  static String home_page = "/home_page";
 }

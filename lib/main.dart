@@ -1,15 +1,17 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/pages/Mainpage.dart';
 import 'package:flutter_complete_guide/pages/changePassword.dart';
+import 'package:flutter_complete_guide/pages/dashboards/schoolHome.dart';
+import 'package:flutter_complete_guide/pages/dashboards/studentHome.dart';
 import 'package:flutter_complete_guide/pages/extra.dart';
+import 'package:flutter_complete_guide/pages/home_page.dart';
 import 'package:flutter_complete_guide/pages/parentsignup.dart';
 import 'package:flutter_complete_guide/pages/ques-Ans.dart';
 import 'package:flutter_complete_guide/pages/register_option.dart';
-import 'package:flutter_complete_guide/pages/schoolHome.dart';
 import 'package:flutter_complete_guide/pages/registrationPages/schoolReg.dart';
 
-import 'package:flutter_complete_guide/pages/studentHome.dart';
 import 'package:flutter_complete_guide/pages/registrationPages/studentReg.dart';
 import 'package:flutter_complete_guide/pages/registrationPages/teacherReg.dart';
 import 'package:flutter_complete_guide/utils/routes.dart';
@@ -28,6 +30,9 @@ class MyApp extends StatelessWidget {
 
 
 @override
+
+
+
   Widget build(BuildContext context) {
     return MaterialApp(
      themeMode:ThemeMode.light,
@@ -36,8 +41,11 @@ class MyApp extends StatelessWidget {
       primaryTextTheme: GoogleFonts.latoTextTheme()
       ),
       debugShowCheckedModeBanner: false,
+      initialRoute: FirebaseAuth.instance.currentUser == null
+          ? Myroutes.loginRoute
+          : Myroutes.home_page,
       routes: {
-        "/": (context) => LoginPage(),
+        // "/": (context) => LoginPage(),
         Myroutes.ques_AnsRoute: (context) => ques_Ans(),
         Myroutes.loginRoute: (context) => LoginPage(),
         Myroutes.MainRoute:(context)=> Mainpage(),
@@ -50,7 +58,7 @@ class MyApp extends StatelessWidget {
         // Myroutes.extra:(context) => extra(),
         Myroutes.teacherReg:(context) => teacherReg(),
         Myroutes.changePassword:(context) => changePassword(),
-
+        Myroutes.home_page:(context) =>homepage(),
       },
     );
   }

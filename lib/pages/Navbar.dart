@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/pages/login_page.dart';
 import 'package:flutter_complete_guide/pages/ques-Ans.dart';
-import 'package:flutter_complete_guide/pages/schoolHome.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Navbar extends StatelessWidget {

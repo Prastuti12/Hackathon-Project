@@ -109,48 +109,56 @@ class _parentsignupState extends State<parentsignup> {
                     TextFieldInput(
                         textEditingController: firstnameController,
                         hintText: "First Name",
+                        labelText: "",
                         textInputType: TextInputType.text),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: lastnameController,
                             hintText: "Last Name",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: studentnameController,
                             hintText: "Student Name",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: schoolnameController,
                             hintText: "School Name",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: cityController,
                             hintText: "city",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: stateController,
                             hintText: "State",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: emailController,
                             hintText: "Email",
+                            labelText: "",
                             textInputType: TextInputType.emailAddress)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: phonenumberController,
                             hintText: "Contact no.",
+                            labelText: "",
                             textInputType: TextInputType.number)),
 
                             Padding(
@@ -159,12 +167,14 @@ class _parentsignupState extends State<parentsignup> {
                             isPass: true,
                             textEditingController: addressController,
                             hintText: "Address",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: pincodeController,
                             hintText: "Pincode",
+                            labelText: "",
                             textInputType: TextInputType.number)),
 
                              DropdownButton(
@@ -197,13 +207,15 @@ class _parentsignupState extends State<parentsignup> {
                             isPass: true,
                             textEditingController: passwordController,
                             hintText: "Password",
-                            textInputType: TextInputType.text)),
+                            labelText: "",
+                              textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             isPass: true,
                             textEditingController: confirmPasswordController,
                             hintText: "Confirm Password",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                       padding: const EdgeInsets.only(top: 50),

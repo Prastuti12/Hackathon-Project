@@ -50,12 +50,14 @@ class _teacherRegState extends State<teacherReg> {
                     TextFieldInput(
                         textEditingController:firstnameController,
                         hintText: "First Name",
+                        labelText: "",
                         textInputType: TextInputType.text),
                     Padding(
                       padding: const EdgeInsets.only(top: 20),
                       child: TextFieldInput(
                         textEditingController:lastnameController,
                         hintText: "Last Name",
+                        labelText: "",
                         textInputType: TextInputType.text)
                     ),
                     Padding(
@@ -63,6 +65,7 @@ class _teacherRegState extends State<teacherReg> {
                       child: TextFieldInput(
                         textEditingController:schoolnameController,
                         hintText: "School Name",
+                        labelText: "",
                         textInputType: TextInputType.text)
                     ),
                     Padding(
@@ -70,6 +73,7 @@ class _teacherRegState extends State<teacherReg> {
                       child: TextFieldInput(
                         textEditingController:emailController,
                         hintText: "Address",
+                        labelText: "",
                         textInputType: TextInputType.text)
                     ),
                     Padding(
@@ -77,6 +81,7 @@ class _teacherRegState extends State<teacherReg> {
                       child: TextFieldInput(
                         textEditingController:cityController,
                         hintText: "City",
+                        labelText: "",
                         textInputType: TextInputType.text)
                     ),
                     Padding(
@@ -84,6 +89,7 @@ class _teacherRegState extends State<teacherReg> {
                       child:TextFieldInput(
                         textEditingController:stateController,
                         hintText: "State",
+                        labelText: "",
                         textInputType: TextInputType.text)
                     ),
                     Padding(
@@ -91,6 +97,7 @@ class _teacherRegState extends State<teacherReg> {
                       child:TextFieldInput(
                         textEditingController:emailController,
                         hintText: "Email",
+                        labelText: "",
                         textInputType: TextInputType.emailAddress)
                     ),
                     Padding(
@@ -98,6 +105,7 @@ class _teacherRegState extends State<teacherReg> {
                       child: TextFieldInput(
                         textEditingController:phonenumberController,
                         hintText: "Contact No.",
+                        labelText: "",
                         textInputType: TextInputType.number)
                     ),
                     Padding(
@@ -105,6 +113,7 @@ class _teacherRegState extends State<teacherReg> {
                       child: TextFieldInput(
                         textEditingController:pincodeController,
                         hintText: "PinCode",
+                        labelText: "",
                         textInputType: TextInputType.number)
                     ),
                     Padding(
@@ -112,6 +121,7 @@ class _teacherRegState extends State<teacherReg> {
                       child: TextFieldInput(
                         textEditingController:passwordController,
                         hintText: "Password",
+                        labelText: "",
                         textInputType: TextInputType.text)
                     ),
                     Padding(
@@ -119,6 +129,7 @@ class _teacherRegState extends State<teacherReg> {
                       child: TextFieldInput(
                         textEditingController:confirmPasswordController,
                         hintText: " Confirm Password",
+                        labelText: "",
                         textInputType: TextInputType.text),
                     ),
                     Padding(

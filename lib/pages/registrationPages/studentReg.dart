@@ -106,54 +106,63 @@ String? dropdownvalue;
                     TextFieldInput(
                         textEditingController: firstnameController,
                         hintText: "First Name",
+                        labelText: "",
                         textInputType: TextInputType.text),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: lastnameController,
                             hintText: "Last Name",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: emailController,
                             hintText: "Email",
+                            labelText: "",
                             textInputType: TextInputType.emailAddress)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: phonenumberController,
                             hintText: "Contact No.",
+                            labelText: "",
                             textInputType: TextInputType.number)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: stateController,
                             hintText: "State",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: cityController,
                             hintText: "City",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: addressController,
                             hintText: "Address",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: schoolnameController,
                             hintText: "School Name",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: TextFieldInput(
                             textEditingController: pincodeController,
                             hintText: "PinCode",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                       padding: const EdgeInsets.only(top: 20),
@@ -202,6 +211,7 @@ String? dropdownvalue;
                             isPass: true,
                             textEditingController: passwordController,
                             hintText: "Password",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                         padding: const EdgeInsets.only(top: 20),
@@ -209,6 +219,7 @@ String? dropdownvalue;
                             isPass: true,
                             textEditingController: confirmPasswordController,
                             hintText: "Confirm Password",
+                            labelText: "",
                             textInputType: TextInputType.text)),
                     Padding(
                       padding: const EdgeInsets.only(top: 50),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_complete_guide/pages/dashboards/schoolHome.dart';
+import 'package:flutter_complete_guide/pages/home_page.dart';
 import 'package:flutter_complete_guide/pages/register_option.dart';
-import 'package:flutter_complete_guide/pages/schoolHome.dart';
+
 import 'package:flutter_complete_guide/resources/authmethod.dart';
 import 'package:flutter_complete_guide/utils/routes.dart';
 import 'package:flutter_complete_guide/widgets/SnackBar.dart';
@@ -35,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
 
     if (res == "success") {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) =>  schoolHome()));
+          MaterialPageRoute(builder: (context) =>  homepage()));
     } else {
       showSnackBar(res, context);
     }
@@ -77,24 +79,29 @@ class _LoginPageState extends State<LoginPage> {
                     const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
                 child: Column(
                   children: [
-                    TextFieldInput(
-                        textEditingController: emailController,
-                        hintText: "Enter Your Email",
-                        textInputType: TextInputType.emailAddress),
-                    Padding(
-                        padding: const EdgeInsets.only(
-                          top: 16.0,
-                        ),
-                        child: TextFieldInput(
-                          textEditingController: passwordController,
-                          hintText: "Password",
-                          textInputType: TextInputType.text,
-                          isPass: true,
-                        )),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 14.0),
-                      child: Row(
-                        children: [],
+                   TextFormField(
+                      controller: emailController,
+                      decoration: InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: "Email",
+                          hintText: "Enter Email"),
+                    
+                    ),
+                    
+                   Padding(
+                      padding: const EdgeInsets.only(
+                        top: 16.0,
+                      ),
+                      child: TextFormField(
+                        controller: passwordController,
+                        obscureText: true,
+                        decoration: InputDecoration(
+                            border: OutlineInputBorder(),
+                            labelText: "Password",
+                            hintText: "Enter Password",
+                            errorStyle: TextStyle(
+                                color: Colors.redAccent, fontSize: 15)),
+                      
                       ),
                     ),
                     Padding(

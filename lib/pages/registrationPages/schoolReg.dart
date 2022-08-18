@@ -111,12 +111,14 @@ class _schoolRegState extends State<schoolReg> {
                     TextFieldInput(
                         textEditingController: schoolnameController,
                         hintText: "School Name",
+                        labelText: "",
                         textInputType: TextInputType.text),
                     Padding(
                       padding: const EdgeInsets.only(top: 20),
                       child: TextFieldInput(
                           textEditingController: addressController,
                           hintText: "Address",
+                          labelText: "",
                           textInputType: TextInputType.text),
                     ),
                     Padding(
@@ -124,6 +126,7 @@ class _schoolRegState extends State<schoolReg> {
                       child: TextFieldInput(
                           textEditingController: cityController,
                           hintText: "City",
+                          labelText: "",
                           textInputType: TextInputType.text),
                     ),
                     Padding(
@@ -131,6 +134,7 @@ class _schoolRegState extends State<schoolReg> {
                       child: TextFieldInput(
                           textEditingController: stateController,
                           hintText: "State",
+                          labelText: "",
                           textInputType: TextInputType.text),
                     ),
                     Padding(
@@ -138,6 +142,7 @@ class _schoolRegState extends State<schoolReg> {
                       child: TextFieldInput(
                           textEditingController: pincodeController,
                           hintText: "PinCode",
+                          labelText: "",
                           textInputType: TextInputType.text),
                     ),
                     Padding(
@@ -145,6 +150,7 @@ class _schoolRegState extends State<schoolReg> {
                       child: TextFieldInput(
                           textEditingController: phonenumberController,
                           hintText: "Contact No.",
+                          labelText: "",
                           textInputType: TextInputType.number),
                     ),
                     Padding(
@@ -152,6 +158,7 @@ class _schoolRegState extends State<schoolReg> {
                       child: TextFieldInput(
                           textEditingController: emailController,
                           hintText: "Email",
+                          labelText: "",
                           textInputType: TextInputType.emailAddress),
                     ),
                     Padding(
@@ -200,6 +207,7 @@ class _schoolRegState extends State<schoolReg> {
                       child: TextFieldInput(
                           textEditingController: passwordController,
                           hintText: "Password",
+                          labelText: "",
                           textInputType: TextInputType.text),
                     ),
                     Padding(
@@ -207,6 +215,7 @@ class _schoolRegState extends State<schoolReg> {
                       child: TextFieldInput(
                           textEditingController: confirmPasswordController,
                           hintText: "Confirm Password",
+                          labelText: "",
                           textInputType: TextInputType.text),
                     ),
                     Padding(
